@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Poppins:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: #fff;
+}
+.error {
+    color: red!important;
+    margin-top: 50px;
+}
+.nav-link {
+    text-align: center;
+    font-size: 16px!important;
+    font-weight: 500!important;
+    margin-right: 30px!important;
+}
+a {
+    font-size: 20px!important;
+    font-weight: 600!important;
+}
+ul li a.active {
+    width: 100%;  
+    border-bottom: 3px solid #712cf9;
+}
+th, tr, td {
+    border: none!important;
+}
+
+
